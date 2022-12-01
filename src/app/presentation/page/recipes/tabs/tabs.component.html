@@ -1,0 +1,13 @@
+<mat-button-toggle-group [(value)]="selectedTab" (valueChange)="onValueChange($event)" aria-label="Font Style">
+    <mat-button-toggle class="tab" value="list">List</mat-button-toggle>
+    <mat-button-toggle class="tab" value="grid">Grid</mat-button-toggle>
+</mat-button-toggle-group>
+
+<div  *ngIf="selectedTab === 'list'; else elseContent">
+    <app-list></app-list>
+</div>
+<ng-template #elseContent>
+    <div>
+        <app-grid></app-grid>
+    </div>
+</ng-template>

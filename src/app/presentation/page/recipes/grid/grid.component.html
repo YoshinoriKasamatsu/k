@@ -1,0 +1,18 @@
+
+<div class="grid">
+    <ng-container *ngFor="let item of items">
+        <div class="item">
+            <div>
+                <img class="overview" src="{{item.url}}" />
+            </div>
+            <div class="name title-location" >
+                {{item.name}}
+            </div>
+            <div>
+                {{item.description}}
+            </div>
+        </div>
+    
+    </ng-container>
+    
+</div>
