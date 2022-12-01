@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MatButtonToggleModule } from "@angular/material/button-toggle"
+// import { MatButtonToggleModule } from "@angular/material/button-toggle"
 
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -22,7 +22,7 @@ import { TabsComponent } from './presentation/page/recipes/tabs/tabs.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    MatButtonToggleModule
+    // MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
