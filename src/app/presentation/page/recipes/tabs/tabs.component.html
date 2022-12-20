@@ -5,12 +5,14 @@
 
 <button class="tab" (click)="onValueChange('list')">List</button>
 <button class="tab" (click)="onValueChange('grid')">Grid</button>
+<button class="tab" (click)="onValueChange('svg')">SVG</button>
 
-<div  *ngIf="selectedTab === 'list'; else elseContent">
+<div  *ngIf="selectedTab === 'list'">
     <app-list></app-list>
 </div>
-<ng-template #elseContent>
-    <div>
-        <app-grid></app-grid>
-    </div>
-</ng-template>
+<div  *ngIf="selectedTab === 'grid'">
+    <app-grid></app-grid>
+</div>
+<div  *ngIf="selectedTab === 'svg'">
+    <app-svg></app-svg>
+</div>

@@ -5,6 +5,7 @@ export interface RecipeModel {
     url: string;
     group: string;
     evaluation: number;
+    rotate: string;
 }
 
 export interface RecipeListModel {

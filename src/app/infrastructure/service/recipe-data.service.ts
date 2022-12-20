@@ -17,7 +17,8 @@ export class RecipeDataService {
         name: 'マルゲリータ',
         description: 'トマト・モッツァレラチーズ・バジルを自家製生地にのせ、石窯で焼き上げたシンプルなピザ。',
         group: 'ピザ',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 2,
@@ -25,7 +26,8 @@ export class RecipeDataService {
         name: 'ココアケーキ',
         description: 'ふんわりと焼き上げたココアケーキに、ブルーベリーとレッドカラントをトッピング。',
         group: 'デザート',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 3,
@@ -33,7 +35,8 @@ export class RecipeDataService {
         name: 'チーズステーキサンド',
         description: '甘辛くソテーした牛薄切り肉とチーズを使用した、フィラデルフィアのサンドイッチ。お好みでソースをつけてお召し上がりください。',
         group: 'サンドイッチ',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 4,
@@ -41,7 +44,8 @@ export class RecipeDataService {
         name: 'レモンパイ',
         description: '甘酸っぱいレモンカードの上にメレンゲをのせ、さっくりと焼き上げたパイ。',
         group: 'パイ',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 5,
@@ -49,7 +53,8 @@ export class RecipeDataService {
         name: 'カフェラテ',
         description: '本日のおすすめのコーヒー豆を深煎りし、じっくり淹れたカフェラテ。ミルクはソイミルクに変更可(+￥50)。コーヒー豆の産地は店員にお尋ねください。',
         group: 'ドリンク',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 6,
@@ -57,7 +62,8 @@ export class RecipeDataService {
         name: '季節の温野菜サラダ',
         description: 'オーブンでグリルした旬の野菜とグリーンリーフのサラダ。ドレッシングは、シーザー、セサミ、ソテードオニオンからお選びいただけます。',
         group: 'サラダ',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 7,
@@ -65,7 +71,8 @@ export class RecipeDataService {
         name: 'かぼちゃのスープ',
         description: 'バターナッツかぼちゃを使用したなめらかなポタージュスープ。テイクアウトもできます。',
         group: 'スープ',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 8,
@@ -73,7 +80,8 @@ export class RecipeDataService {
         name: 'クリスマスティー',
         description: 'スパイスとオレンジをブレンドした冬季限定のフレーバードティー。ストレートでもミルクティーでもお楽しみいただけます。※12/25までの限定メニュー',
         group: 'ドリンク',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
       {
         id: 9,
@@ -81,7 +89,8 @@ export class RecipeDataService {
         name: 'BLTサンド',
         description: 'アンガス牛100%の直火焼きパティに、北海道産のチェダーチーズをあわせたこだわりのBLTサンド。野菜の産地は店内掲示をご覧ください。',
         group: 'ハンバーガー',
-        evaluation: 4.5
+        evaluation: 4.5,
+        rotate: "",
       },
     ];
     return of(recipes);

@@ -10,6 +10,7 @@ import { OverviewComponent } from './presentation/component/recipe/overview/over
 import { GridComponent } from './presentation/page/recipes/grid/grid.component';
 import { ListComponent } from './presentation/page/recipes/list/list.component';
 import { TabsComponent } from './presentation/page/recipes/tabs/tabs.component';
+import { SvgComponent } from './presentation/page/recipes/svg/svg.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TabsComponent } from './presentation/page/recipes/tabs/tabs.component';
     TabsComponent,
     ListComponent,
     GridComponent,
-    OverviewComponent
+    OverviewComponent,
+    SvgComponent
   ],
   imports: [
     BrowserModule,

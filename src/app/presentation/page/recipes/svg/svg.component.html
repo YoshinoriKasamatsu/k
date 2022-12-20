@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1500px" height="1500px" viewBox="0 0 1500 1500">
+    <defs>
+        <clipPath id="clip-path">
+            <rect width="100px" height="100px" rx="20" ry="20" />
+        </clipPath>
+    </defs>
+    <g *ngFor="let item of items" >
+        <g fill="black" [attr.transform]="item.rotate" >
+            <image 
+                clip-path="url(#clip-path)" 
+                [attr.href]="item.url" 
+                preserveAspectRatio="xMidYMid slice" 
+                height="100px"
+                width="100px" />
+            <text x="120px" y="15" font-family="Verdana" font-size="20">
+                {{item.name}}
+            </text>
+            <text x="120px" y="35" font-family="Verdana" font-size="12">
+                {{item.description}}
+            </text>
+        </g>
+    </g>
+</svg>

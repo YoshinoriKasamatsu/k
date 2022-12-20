@@ -7,10 +7,17 @@ import { Component, ViewRef } from '@angular/core';
 })
 export class TabsComponent  {
 
-  selectedTab: "list" | "grid" = "list";
+  selectedTab: "list" | "grid" | "svg" = "list";
 
   onValueChange(viewType: string) {
-    this.selectedTab = viewType === "list" ? "list" : "grid";
+    if(viewType === "list"){
+      this.selectedTab = "list"
+      return;
+    }
+    if(viewType === "grid"){
+      this.selectedTab = "grid"
+      return;
+    }
+    this.selectedTab = "svg"
   }
-
 }
